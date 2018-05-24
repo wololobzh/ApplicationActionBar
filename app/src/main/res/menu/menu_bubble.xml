@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/option_bubble_une"
+        android:title="Option une"
+        android:icon="@android:drawable/btn_radio"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/option_bubble_deux"
+        android:title="Option deux"
+        android:icon="@android:drawable/ic_dialog_info"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/option_bubble_trois"
+        android:title="Option trois"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        app:showAsAction="never" />
+</menu>
